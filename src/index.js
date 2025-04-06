@@ -1,3 +1,4 @@
+import './style.css';
 import { getHomeContent } from './home/home.js';
 
 console.log('Hello, Odin Restaurant!');
