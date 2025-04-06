@@ -1,3 +1,4 @@
+import './menu.css';
 import cookiesImage from './chocolate-chip-cookies.jpg';
 import cocoaImage from './hot-cocoa.jpg';
 

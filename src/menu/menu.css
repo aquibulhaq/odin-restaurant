@@ -1,0 +1,35 @@
+.menu-content .item {
+  display: flex;
+  width: 600px;
+  height: 250px;
+  background-color: lightgray;
+  margin: 1.25rem 0;
+}
+
+.menu-content .item * {
+  margin: 0;
+}
+
+.menu-content .item-image {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.menu-content .item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.menu-content .item-desc {
+  flex: 1;
+  overflow: hidden;
+}
+
+.menu-content .item-price {
+  font-weight: bold;
+  text-align: right;
+}
