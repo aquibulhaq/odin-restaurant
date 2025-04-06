@@ -1,5 +1,6 @@
 import './style.css';
 import { getHomeContent } from './home/home.js';
+import { getMenuContent } from './menu/menu.js';
 
 console.log('Hello, Odin Restaurant!');
 
@@ -16,6 +17,8 @@ navDiv.addEventListener('click', (event) => {
 
   if (target.classList.contains('home-button'))
     contentDiv.appendChild(getHomeContent());
+  else if (target.classList.contains('menu-button'))
+    contentDiv.appendChild(getMenuContent());
 });
 
 contentDiv.appendChild(getHomeContent());
