@@ -1,0 +1,21 @@
+.home-content table {
+  border-collapse: collapse;
+}
+
+.home-content td,
+.home-content th {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.home-content td {
+  text-align: right;
+}
+
+.home-content .null {
+  text-align: center;
+}
+
+.home-content tbody th {
+  text-align: left;
+}
